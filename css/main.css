@@ -2141,10 +2141,11 @@ html[dir="ltr"] .testimonial .pat {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack:  center;
+      -ms-flex-pack:  center;
+          justify-content:  center;
   padding-top: 27px;
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 767px) {
@@ -2158,13 +2159,13 @@ html[dir="ltr"] .testimonial .pat {
 
 .logos a {
   display: block;
+  margin: 0px 15px;
 }
 
 .logos .logo {
   display: block;
   width: 280px;
-  -webkit-margin-end: auto;
-          margin-inline-end: auto;
+  
 }
 
 @media (max-width: 767px) {
@@ -2184,7 +2185,7 @@ html[dir="ltr"] .testimonial .pat {
   }
 }
 
-.logos .logo3 {
+.logos .logo2 {
   width: 91px;
   -webkit-margin-start: 21px;
           margin-inline-start: 21px;
